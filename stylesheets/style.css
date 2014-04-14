@@ -24,7 +24,7 @@ body {
 /**
  * not sure if this is where i should put this.
  */
-.nav {
+nav {
   float: left;
   width: 30%;
 }
