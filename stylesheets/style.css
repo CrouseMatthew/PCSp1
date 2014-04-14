@@ -29,13 +29,20 @@ nav {
   width: 30%;
 }
 
+article {
+  width: 70%;
+  float: left;
+
+}
+
 
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
 
 .container {
-  width: 900px;
+  width: 90%;
+  overflow: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -43,7 +50,8 @@ nav {
   background-color: #D6E5F5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -75,7 +83,7 @@ nav {
 .article_heading {
   width: 80%;
   margin-left: 20px;
-  padding: 10px;
+  padding: 1em;
   border: 1px solid #2D3C36;
   border-radius: 15px;
   background-color: #6FB8DF;
@@ -84,7 +92,7 @@ nav {
 
 .article_content {
   margin: 0 20px 0 20px;
-  padding: 10px;
+  padding: .7em;
   border: 1px solid #2D3C36;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
