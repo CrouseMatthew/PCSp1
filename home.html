@@ -55,12 +55,21 @@
       	<div class="contact_information">
           <a href="mailto:contact@email.com">contact@email.com</a>
       	</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
       </div>
       </header>
+    
+    </div>		
 
-    		
-
-    	<div class="article">
+    <div class="container">
+      <articles>
+    	<article>
       	<div class="article_heading">
       	 <h1>This is an article</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
       	</div>
@@ -68,9 +77,9 @@
           <p>This is an article paragraph and other stuff.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra ultricies nibh, in interdum tellus ultrices id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse urna lorem, imperdiet a mattis sed, blandit id elit. Proin id ultrices odio. Vivamus ut nisl nulla. Proin consectetur urna vitae est fermentum in placerat elit condimentum. Morbi iaculis elit sit amet lacus convallis a semper risus elementum.</p>
       	</div>		
-    	</div>
+    	</article>
 
-      <div class="article">
+      <article>
         <div class="article_heading">
          <h1>This is another article</h1> <i> mm/dd/yyyy notice how the html for this is basically the same as the one above it.</i>
         </div>
@@ -87,9 +96,9 @@
             <li>items</li>
           </ol>
         </div>    
-      </div>
+      </article>
 
-      <div class="article">
+      <article>
         <div class="article_heading">
          <h1>This article has a form</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
         </div>
@@ -97,7 +106,12 @@
           <p>This is an article paragraph and other stuff.</p>
           <p><a href="#theForm" id="formLink">Show the form</a></p>
           <a id="theForm"></a>
-         
+        </div>
+      </article>
+      </articles>  
+      </div>   
+
+      <div class="container">
           <form id="responseForm" method="post" action="http:form-echo.herokuapp.com/form-echo">
             <table class="form_field_table">
               <tr>
@@ -134,9 +148,7 @@
               </tr>
             </table>                 
           </form>
-        </div>    
       </div>
-
     	<!-- the footer area sits at the bottom of the page -->
       <div class="main">
     	<footer>
@@ -144,7 +156,6 @@
     	 Copyright &copy; 2013 <i>Bridge City Message</i>
     	</footer>
   	</div>  <!-- .container -->
-
     <script type="text/javascript" >
         initializePage();
     </script>

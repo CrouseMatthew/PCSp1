@@ -21,11 +21,23 @@ body {
   background-color: #9BD0E0;
 }
 
+/**
+ * not sure if this is where i should put this.
+ */
+.nav {
+  float: left;
+  width: 30%;
+}
+
+
+
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
 
 .container {
   width: 900px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: #D6E5F5;
@@ -39,6 +51,7 @@ body {
 
 .header {
   margin: 20px;
+  clear: both;
 }
  	
 .page_heading {
@@ -60,7 +73,7 @@ body {
 }
 
 .article_heading {
-  width: 600px;
+  width: 80%;
   margin-left: 20px;
   padding: 10px;
   border: 1px solid #2D3C36;
@@ -109,8 +122,7 @@ form {
   min-height: 40px;
   text-align: center;
   margin: 20px;
+  clear: both;
 
 }
-
-
 
