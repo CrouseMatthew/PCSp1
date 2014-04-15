@@ -19,6 +19,7 @@ body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
   background-color: #9BD0E0;
+
 }
 
 /**
@@ -27,9 +28,10 @@ body {
 nav {
   float: left;
   width: 30%;
-}
+  }
 
-article {
+
+.articles {
   width: 70%;
   float: left;
 
@@ -40,10 +42,11 @@ article {
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
 
+
 .container {
-  width: 90%;
-  overflow: auto;
+  width: 900px;
   margin-top: 20px;
+  overflow: auto;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -64,6 +67,8 @@ article {
  	
 .page_heading {
     margin-left: 20px;
+    color: #6FB8DF;
+
 } 
 	
 .contact_information {
@@ -131,6 +136,7 @@ form {
   text-align: center;
   margin: 20px;
   clear: both;
+ 
 
 }
 
