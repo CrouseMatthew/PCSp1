@@ -11,6 +11,7 @@ Reference: http://www.w3schools.com/css/default.asp
 
 html h1 {
   margin: 0;
+  font-size: 45px;
 }
 
 /* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
@@ -27,9 +28,23 @@ body {
  */
 nav {
   float: left;
-  width: 30%;
+  width: 29%;
+  margin-left: 1%;
+  background-color: #AEDCED;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   }
 
+.comp.name{
+  width:40%;
+}
+.image_logo{
+  float: right;
+}
+
+.page_tag {
+  color: grey;
+}
 
 .articles {
   width: 70%;
@@ -44,7 +59,7 @@ nav {
 
 
 .container {
-  width: 900px;
+  width: 80%;
   margin-top: 20px;
   overflow: auto;
   margin-bottom: 20px;
@@ -91,7 +106,7 @@ nav {
   padding: 1em;
   border: 1px solid #2D3C36;
   border-radius: 15px;
-  background-color: #6FB8DF;
+  background-color: #90CADF;
 
 }
 
@@ -106,6 +121,17 @@ nav {
 
 }
 
+.t_info{
+  width:29%;
+  clear:both;
+
+}
+
+.t_input{
+  width: 71%;
+  clear:both;
+
+}
 .prompt_text {
   font-size: 24px;
   padding-left: 10px;
@@ -130,7 +156,7 @@ form {
 
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
-.footer {
+footer {
   font-size: .80em;
   min-height: 40px;
   text-align: center;
@@ -140,3 +166,7 @@ form {
 
 }
 
+header{
+  clear:both;
+  margin: 20px;
+}
