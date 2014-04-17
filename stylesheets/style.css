@@ -29,8 +29,10 @@ body {
 nav {
   float: left;
   width: 29%;
-  margin-left: 1%;
+  height: 80%;
+  padding-bottom: 80%;
   background-color: #AEDCED;
+  margin-left: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   }
@@ -40,6 +42,7 @@ nav {
 }
 .image_logo{
   float: right;
+  width: auto;
 }
 
 .page_tag {
@@ -50,6 +53,11 @@ nav {
   width: 70%;
   float: left;
 
+}
+
+.image_head {
+  width: 80px;
+  height: 90px;
 }
 
 
@@ -122,7 +130,7 @@ nav {
 }
 
 .t_info{
-  width:29%;
+  width:80%;
   clear:both;
 
 }
@@ -169,4 +177,7 @@ footer {
 header{
   clear:both;
   margin: 20px;
-}
+  width: auto;
+/*  max-height: 400px;
+  max-width: 900px;
+}*/

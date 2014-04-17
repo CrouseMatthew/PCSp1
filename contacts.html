@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
+
+<!-- The  html tag contains everything on the page: head and body-->
+<html lang="en">
+
+  <!-- The "head" container includes all the information the browser needs to display the page -->
+  <head>
+    <!-- the "meta" tag is used to provide, ah, meta-information about the page. 
+         This one is another method to the browser what this content is and what character set we are using 
+    -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- edit the title to include client content-->
+    <title>Bridge City Message</title>
+    
+    <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+
+    <script type="text/javascript" src="scripts/template.js"></script>
+  	
+    <!-- the "style" tag container includes this page's unique style rules -->
+    <style type="text/css">
+  		p, li {color: darkgray;}
+  	</style>
+  </head>
+
+  <!-- The "body" tag container includes the structure and content of the page -->
+  <body>
+
+    <div class="container"> <!-- contains everything on the page; used for centering and margins-->
+
+    	<header> <!-- contains the constant stuff at the top of the page -->
+        <div class="main">
+
+      	<div class="page_heading">
+            <div class="image_logo">
+             <img  src="client_assets/logo.jpg"
+                alt="replace this with the html validator padge code snippet"
+                height= "130"
+                width = "600"/>
+            </div>
+          <h1 class = "comp.na">Bridge City Message</h1>
+          <div class="page_tag">
+          <h4><i>"Rest and Relaxation <br> is only a bridge away..." </i> </h4>
+          </div>
+      	</div>
+      </div>
+      </header>
+    
+    </div>		
+    <div class="main">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+         <li><a href="contacts.html">Contact</a></li>
+         <br>
+            <div class="image_head">
+             <a> <img  src="http://www.professionalsanfranciscoheadshots.com/wp-content/uploads/2014/02/Professional-headshots-san-francisco-giacoma-4747.jpg"
+                height= "320"
+                width = "240"/>
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <p><a href="contacts.html" id="formLink">Make an Appointment</a></p>
+       </ul>
+      </nav>
+      <section class ='articles'>
+    	<article>
+      	<div class="article_heading">
+      	 <h2>Contact Info:</h2> <i>Address: 1917 fakers st. <br> Portland Oregon, 97209</i>
+      	</div>
+      	<div class="article_content">
+          <a id="theForm"></a>
+                    <form id="responseForm" method="post" action="http://form-echo.herokuapp.com/form-echo">
+            <table class="form_field_table">
+              <tr>
+                <td>
+                <div class="t_info">
+                Hours Of Opperation:
+                </div>
+                </td>
+
+                <td>
+                <div class="t_info">
+                M-F: 9am-5pm <br>Sa: 2pm-4pm
+                </div>
+                </td>                
+              </tr>
+              <tr>
+                <td>
+                <div class="t_info">
+                Email Adress: 
+                </div>
+                </td>
+                <td>
+                <div class="t_info">
+                MessageGuys@yahoo.com
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <div class="t_info">
+                Phone:
+                </div>
+                </td>
+                <td>
+                <div class="t_info">
+                (503) 353-1934
+                </div>
+                </td>
+
+              <tr>
+
+               <td>
+               <div class="t_input">
+               &nbsp;
+               </div>
+               </td>           
+              </tr>
+            </table>                 
+          </form>
+      	</div>		
+    	</article>
+      <article>
+      <div class="article_content">
+
+  
+          <a id="theForm"></a>
+                    <form id="responseForm" method="post" action="http://form-echo.herokuapp.com/form-echo">
+            <table class="form_field_table">
+              <tr>
+                <td>
+                <div class="t_info">
+                Your email:
+                </div>
+                </td>
+                <td>
+                <div class="t_input">
+                    <input type="text"  name="recipient" value="me@example.com" size="40" />
+                </div>
+                </td>
+                
+              </tr>
+              <tr>
+                <td>
+                <div class="t_info">
+                Your name: 
+                </div>
+                </td>
+                <td>
+                <div class ="t_input">
+                  <input type="text" name="customer_name" size="40" />
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <div class="t_info">
+                Your phone:
+                </div>
+                </td>
+                <td>
+                <div class="t_input">
+                  <input type="text" name="customer_phone" size="40" />
+                </div>
+                </td>
+
+              </tr>
+               <tr>
+                <td>
+                <div class="t_info">
+                Request Date:
+                </div>
+                </td>
+                <td>
+                <div class="t_input">
+                  <input type="text" name="customer_phone" size="40" />
+                </div>
+                </td>
+
+              </tr>
+               <tr>
+                <td>
+                <div class="t_info">
+                Request Time:
+                </div>
+                </td>
+                <td>
+                <div class="t_input">
+                  <input type="text" name="customer_phone" size="40" />
+                </div>
+                </td>
+
+              </tr>
+              <tr>
+                <td>
+                <div class="t_info">
+                Message:
+                </div>
+                </td>
+                    <td>
+                    <div class="t_input">
+                    <textarea name="customer_message" rows="7" cols="50"> </textarea>
+                    </div>
+                    </td>
+
+              </tr>
+              <tr>
+
+               <td>
+               <div class="t_info">
+               &nbsp;
+               </div>
+               </td>
+               
+                <td>
+                  <div class="buttons">
+                    <a href="#"></a>  <input name="submit" type="submit" value="Make an Appointment" />
+                  </div> 
+                </td>           
+              </tr>
+            </table>                 
+          </form>
+          </div>
+          </article>
+      </section> 
+      </div>   
+      </div>
+    	<!-- the footer area sits at the bottom of the page -->
+     	<footer>
+        <!-- edit the footer to include your name  -->
+    	 Copyright &copy; 2013 <i>Bridge City Message</i>
+        <div class="contact_information">
+          <br>
+          <a href="mailto:contact@email.com">contact@email.com</a>
+        </div>
+    	</footer>
+  	<!-- .container -->
+    <script type="text/javascript" >
+        initializePage();
+    </script>
+  </body>
+</html>
