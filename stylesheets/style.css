@@ -45,6 +45,92 @@ nav {
   width: auto;
 }
 
+@media screen and (min-width: 1865px) {
+.image_logo{
+  float: right;
+  width: auto;
+ 
+
+}
+.image_head {
+  width: 180px;
+  height: 190px;
+}
+
+nav {
+  float: left;
+  width: 29%;
+  height: 80%;
+  padding-bottom: 80%;
+  background-color: #AEDCED;
+  margin-left: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  font-size: large;
+  font-weight: 900;
+  font: bolder;
+  }
+
+ul {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 60px;
+}
+
+.appt_txt{
+  float: left;
+  font-size: large;
+  font-weight: 900;
+  font: bolder;
+}
+
+}
+@media screen and (max-width: 1300px) {
+.image_logo{
+  float: right;
+  width: auto;
+  display: none;
+
+}
+.image_head {
+  width: 80px;
+  height: 90px;
+  display: none;
+}
+
+nav {
+  float: left;
+  width: 12%;
+  height: 80%;
+  padding-bottom: 80%;
+  background-color: #AEDCED;
+  margin-left: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  font-size: small;
+  }
+
+ul {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 14px;
+}
+
+.appt_txt{
+  float: left;
+  display:none;
+}
+
+}
+
 .page_tag {
   color: grey;
 }
@@ -58,6 +144,7 @@ nav {
 .image_head {
   width: 80px;
   height: 90px;
+
 }
 
 
