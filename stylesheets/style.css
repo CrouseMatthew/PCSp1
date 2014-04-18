@@ -53,8 +53,6 @@ nav {
 
 }
 .image_head {
-  width: 180px;
-  height: 190px;
 }
 
 nav {
@@ -82,7 +80,7 @@ list-style-type: disc;
 }
 
 .appt_txt{
-  float: left;
+  /*float: left;*/
   font-size: large;
   font-weight: 900;
   font: bolder;
@@ -97,9 +95,9 @@ list-style-type: disc;
 
 }
 .image_head {
-  width: 80px;
-  height: 90px;
+
   display: none;
+  
 }
 
 nav {
@@ -142,8 +140,7 @@ list-style-type: disc;
 }
 
 .image_head {
-  width: 80px;
-  height: 90px;
+padding-left: 20px;
 
 }
 
@@ -249,6 +246,10 @@ form {
   float: right;
 }
 
+.appt_txt{
+  float: left;
+  padding-left: 20px;
+}
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
 footer {
