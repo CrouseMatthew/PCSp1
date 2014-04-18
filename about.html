@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 
-<!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
-
-<!-- The  html tag contains everything on the page: head and body-->
 <html lang="en">
 
-  <!-- The "head" container includes all the information the browser needs to display the page -->
   <head>
-    <!-- the "meta" tag is used to provide, ah, meta-information about the page. 
-         This one is another method to the browser what this content is and what character set we are using 
-    -->
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- edit the title to include client content-->
-    <title>Bridge City Message</title>
+    <!-- The title for the web browser-->
+    <title>Bridge City Massage</title>
     
-    <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
+    <!-- Location of CSS stylesheet  -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
 
     <script type="text/javascript" src="scripts/template.js"></script>
   	
     <!-- the "style" tag container includes this page's unique style rules -->
-    <style type="text/css">
+    <style type="text/css"> 
   		p, li {color: darkgray;}
   	</style>
   </head>
 
   <!-- The "body" tag container includes the structure and content of the page -->
   <body>
-
-    <div class="container"> <!-- contains everything on the page; used for centering and margins-->
+    <!-- contains everything on the page; used for centering and margins-->
+    <div class="container"> 
 
     	<header> <!-- contains the constant stuff at the top of the page -->
         <div class="main">
 
       	<div class="page_heading">
             <div class="image_logo">
-             <img  src="client_assets/logo.jpg"
-                alt="replace this with the html validator padge code snippet"
-                height= "130"
-                width = "600"/>
+             <img  src="client_assets/logo.jpg"/>
             </div>
-          <h1 class = "comp.na">Bridge City Message</h1>
+          <h1 class = "comp.na">Bridge City Massage</h1>
+          <!--  this class page tag formats the companies tagline -->
           <div class="page_tag">
           <h4><i>"Rest and Relaxation <br> is only a bridge away..." </i> </h4>
           </div>
@@ -50,23 +42,28 @@
       </header>
     
     </div>		
-    <div class="main">
-    <div class="container">
-      <nav>
+    <!-- contains everything on the page; used for centering and margins-->
+    <div class="container"> 
+
+      <!-- The navigation bar contains links to other webpages -->
+      <nav> 
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="about.html">About</a></li>
          <li><a href="contacts.html">Contact</a></li>
        </ul>
             <div class="image_head">
-             <img  src="http://www.professionalsanfranciscoheadshots.com/wp-content/uploads/2014/02/Professional-headshots-san-francisco-giacoma-4747.jpg"
+             <img  src="http://www.professionalsanfranciscoheadshots.com/wp-content/uploads/2014/02/Professional-headshots-san-francisco-giacoma-4747.jpg"  
                 height= "320"
                 width = "240"/>
             </div>
+        <!-- APPT_TXT  class is used for formatting the link  4 different screen formats-->
         <div class ="appt_txt">
         <p><a href="contacts.html" id="formLink">Make an Appointment</a></p>
         </div>
       </nav>
+
+      <!--The articles class  formats the articles section -->
       <section class ='articles'>
     	<article>
       	<div class="article_heading">
@@ -79,11 +76,10 @@
     	</article>
       </section> 
       </div>   
-      </div>
     	<!-- the footer area sits at the bottom of the page -->
      	<footer>
         <!-- edit the footer to include your name  -->
-    	 Copyright &copy; 2013 <i>Bridge City Message</i>
+    	 Copyright &copy; 2013 <i>Bridge City Massage</i>
         <div class="contact_information">
           <br>
           <a href="mailto:contact@email.com">contact@email.com</a>

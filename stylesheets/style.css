@@ -1,20 +1,22 @@
 /* 
 
-This file contains all your CSS style rules. 
+This file contains all the CSS style rules. 
 indent = 2 spaces, not tabs 
 
-Reference: http://www.w3schools.com/css/default.asp
 
 */
 
-/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+/* because every browser has a built in stylesheet we have to reset those properties that we want 
+to manipulate later. We do this by setting those properties to zero for the entire 
+HTML document and any other tag selectors we want to redefine from scratch*/
 
 html h1 {
   margin: 0;
   font-size: 45px;
 }
 
-/* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
+/* next we set up those properties that we want to apply everywhere that is 
+visible on the page using the body selector. Notice the "font-family" */
 
 body {
   font-size: 1.1em;
@@ -24,7 +26,7 @@ body {
 }
 
 /**
- * not sure if this is where i should put this.
+ * Formatting for the NASCAR section
  */
 nav {
   float: left;
@@ -40,11 +42,148 @@ nav {
 .comp.name{
   width:40%;
 }
+
 .image_logo{
   float: right;
   width: auto;
 }
 
+
+
+/* The container sits in the middle of the page and is a fixed width Reference: 
+http://www.w3schools.com/css/css_boxmodel.asp
+*/
+
+
+.container {
+  width: 80%;
+  margin-top: 20px;
+  overflow: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D6E5F5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/* The next set of styles pretty much just "open up" the page and create white space */
+
+.header {
+  margin: 20px;
+  clear: both;
+}
+ 	
+.page_heading {
+    margin-left: 20px;
+    color: #6FB8DF;
+
+} 
+	
+.contact_information {
+    margin-left: 20px;
+}
+
+
+.article {
+  margin: 20px;
+}
+
+.article_heading {
+  width: 80%;
+  margin-left: 20px;
+  padding: 1em;
+  border: 1px solid #2D3C36;
+  border-radius: 15px;
+  background-color: #90CADF;
+
+}
+
+.article_content {
+  margin: 0 20px 0 20px;
+  padding: .7em;
+  border: 1px solid #2D3C36;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+
+}
+
+.t_info{
+  width:80%;
+  clear:both;
+
+}
+
+.t_input{
+  width: 71%;
+  clear:both;
+
+}
+.prompt_text {
+  font-size: 24px;
+  padding-left: 10px;
+  color: #2D3C36;
+}
+.form_field_table {
+  margin-left: 30px;
+  border: none;
+}
+.form_field_table td {color: grey;}
+
+/*
+Formatting for the forms on the website
+ */
+form {
+  color: #489;
+}
+.buttons {
+  float: right;
+}
+
+.float_right {
+  float: right;
+}
+
+/*
+Formatting for the make an appointment button
+ */
+.appt_txt{
+  float: left;
+  padding-left: 20px;
+}
+
+/* finally, the footer stretches across the whole page width in an open, centered sort of way. */
+footer {
+  font-size: .80em;
+  min-height: 40px;
+  text-align: center;
+  margin: 20px;
+  clear: both;
+ 
+
+}
+
+/*
+Formatting for the header at the top the website
+ */
+header{
+  clear:both;
+  margin: 20px;
+  width: auto;
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+/*The following format section formats the page  at different screen sizes */
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/**
+ * Formatting for when the screen is zoomed out or large
+ */
 @media screen and (min-width: 1865px) {
 .image_logo{
   float: right;
@@ -87,6 +226,10 @@ list-style-type: disc;
 }
 
 }
+
+/*
+Formatting from when the screen is zoomed in or small this removes photos for better layout
+ */
 @media screen and (max-width: 1300px) {
 .image_logo{
   float: right;
@@ -144,128 +287,3 @@ padding-left: 20px;
 
 }
 
-
-
-/* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
-*/
-
-
-.container {
-  width: 80%;
-  margin-top: 20px;
-  overflow: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #D6E5F5;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-
-/* The next set of styles pretty much just "open up" the page and create white space */
-
-.header {
-  margin: 20px;
-  clear: both;
-}
- 	
-.page_heading {
-    margin-left: 20px;
-    color: #6FB8DF;
-
-} 
-	
-.contact_information {
-    margin-left: 20px;
-}
-
-/* we want the validation pages to appear on the right side of the page inside the container */
-
-.validation_badge {
-  float: right;
-}
-
-.article {
-  margin: 20px;
-}
-
-.article_heading {
-  width: 80%;
-  margin-left: 20px;
-  padding: 1em;
-  border: 1px solid #2D3C36;
-  border-radius: 15px;
-  background-color: #90CADF;
-
-}
-
-.article_content {
-  margin: 0 20px 0 20px;
-  padding: .7em;
-  border: 1px solid #2D3C36;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 15px;
-  background-color: #F2F2F2;
-
-}
-
-.t_info{
-  width:80%;
-  clear:both;
-
-}
-
-.t_input{
-  width: 71%;
-  clear:both;
-
-}
-.prompt_text {
-  font-size: 24px;
-  padding-left: 10px;
-  color: #2D3C36;
-}
-.form_field_table {
-  margin-left: 30px;
-  border: none;
-}
-.form_field_table td {color: grey;}
-
-form {
-  color: #489;
-}
-.buttons {
-  float: right;
-}
-
-.float_right {
-  float: right;
-}
-
-.appt_txt{
-  float: left;
-  padding-left: 20px;
-}
-
-/* finally, the footer stretches across the whole page width in an open, centered sort of way. */
-footer {
-  font-size: .80em;
-  min-height: 40px;
-  text-align: center;
-  margin: 20px;
-  clear: both;
- 
-
-}
-
-header{
-  clear:both;
-  margin: 20px;
-  width: auto;
-/*  max-height: 400px;
-  max-width: 900px;
-}*/
